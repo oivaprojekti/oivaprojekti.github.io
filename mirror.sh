@@ -1,3 +1,3 @@
 #!/bin/sh
 
-wget --mirror -w 2 -p --html-extension --convert-links -P oiva http://oivaprojekti.fi
+wget --mirror --page-requisites --html-extension --convert-links --wait 2 http://oivaprojekti.fi
